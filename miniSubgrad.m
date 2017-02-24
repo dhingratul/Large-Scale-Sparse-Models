@@ -16,10 +16,9 @@ for iter=1:max_iter
 %     x = X(rand_idx, :);
 %     y = Y(rand_idx);
     
-    grad = X(rand_idx,:)' * (X(rand_idx,:) * w - Y(rand_idx)) / n + lambda * sign(w);
+    grad = X(rand_idx,:)' * (X(rand_idx,:) * w - Y(rand_idx)) / batchSize + lambda * sign(w);
     
     w = w - eta / iter * grad;
-    iter
 end
 
 end
