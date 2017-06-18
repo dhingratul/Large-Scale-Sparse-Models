@@ -1,3 +1,4 @@
+%% Run Stochastic Gradient Descent with Hard Thresholding
 clear;
 
 load('gisette.mat', 'X_train', 'Y_train', 'X_test', 'Y_test');
