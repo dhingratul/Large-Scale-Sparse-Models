@@ -1,3 +1,7 @@
+%% FOBOS Algorithm
+% Input: X, Y, Lambda
+% Output: W, Obj
+% Note: Run from run_Fobos.m
 function [ w, obj ] = fobos( X, Y, lambda )
 % min_w (1/2n) || Y - Xw ||^2 + lambda || w ||_1
 
@@ -10,9 +14,9 @@ w = zeros(p, 1);
 obj = zeros(1, max_iter);
 
 for iter=1:max_iter
-%     if mod(iter, 200) == 0
-%         fprintf('iter %d, obj = %g\n', iter, obj(iter));
-%     end
+    %     if mod(iter, 200) == 0
+    %         fprintf('iter %d, obj = %g\n', iter, obj(iter));
+    %     end
     
     rand_idx = randi(n);
     
