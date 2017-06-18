@@ -1,3 +1,7 @@
+%% Run Fobos_round
+% Input: X, Y, lambda, round
+% Output: W, obj
+% Note: Run from run_Fobos_round.m
 function [ w, obj ] = fobos_round( X, Y, lambda, round )
 % min_w (1/2n) || Y - Xw ||^2 + lambda || w ||_1
 
