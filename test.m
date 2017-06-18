@@ -1,3 +1,4 @@
+%% Test Run File- Lasso, Sub-gradient, mini-Subgradient
 clear;
 
 %addpath('algs');
@@ -9,11 +10,11 @@ n = size(X_train,1);
 % p=20;
 % n=100;
 % k = 2;
-% 
+%
 % X_train = rand(n, p);
 % w = 10 * rand(p, 1);
 % w(randperm(p, p - k)) = 0;
-% 
+%
 % Y_train = X_train * w + 0.01 * rand(n, 1);
 
 % set lambda
