@@ -1,3 +1,7 @@
+%% RUn FOBOS Mini-batch version
+% Input: X, Y, Lambda, Batch-size
+% Output: W, obj
+% Note: W, obj
 function [ w, obj ] = fobos_minibatch( X, Y, lambda, batchsz )
 % min_w (1/2n) || Y - Xw ||^2 + lambda || w ||_1
 
