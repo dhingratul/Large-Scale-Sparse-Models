@@ -1,3 +1,4 @@
+%% Run LARS Algorithm
 clear;
 
 addpath('spams/src_release/');
