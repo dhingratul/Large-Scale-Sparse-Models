@@ -1,7 +1,8 @@
+%% Stochastic Gradient Descent with Hard Thresholding
+% Input: X, Y, k, eta
+% Output: w, obj
+% Note: Run from Run_ files
 function [ w, obj ] = sgd_ht( X, Y, K, eta )
-%SGD_HT Summary of this function goes here
-%   Detailed explanation goes here
-
 max_iter = 2e5;
 a = 2;
 
